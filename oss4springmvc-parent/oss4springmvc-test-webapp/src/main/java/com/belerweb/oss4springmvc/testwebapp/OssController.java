@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc.testwebapp;
+package com.belerweb.oss4springmvc.testwebapp;
 
 import java.io.IOException;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.beterweb.oss4springmvc.OssService;
-import com.beterweb.oss4springmvc.bean.OssUploadResult;
+import com.belerweb.oss4springmvc.OssService;
+import com.belerweb.oss4springmvc.bean.OssUploadResult;
 
 /**
  * @author Jun

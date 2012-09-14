@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc.builder;
+package com.belerweb.oss4springmvc.builder;
 
 /**
  * @author Jun

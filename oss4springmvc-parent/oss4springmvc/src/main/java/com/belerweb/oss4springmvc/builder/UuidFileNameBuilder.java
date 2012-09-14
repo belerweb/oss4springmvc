@@ -1,8 +1,8 @@
-package com.beterweb.oss4springmvc.builder;
+package com.belerweb.oss4springmvc.builder;
 
 import java.util.UUID;
 
-import com.beterweb.oss4springmvc.Constant;
+import com.belerweb.oss4springmvc.Constant;
 
 /**
  * @author Jun
@@ -12,7 +12,7 @@ import com.beterweb.oss4springmvc.Constant;
 public class UuidFileNameBuilder implements FileNameBuilder {
 
 	/* (non-Javadoc)
-	 * @see com.beterweb.oss4springmvc.builder.FileNameBuilder#build(java.lang.String)
+	 * @see com.belerweb.oss4springmvc.builder.FileNameBuilder#build(java.lang.String)
 	 */
 	@Override
 	public String build(String fileName) {

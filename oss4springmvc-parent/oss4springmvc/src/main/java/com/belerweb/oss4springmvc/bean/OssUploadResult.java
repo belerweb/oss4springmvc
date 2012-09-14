@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc.bean;
+package com.belerweb.oss4springmvc.bean;
 
 import java.util.ArrayList;
 import java.util.List;

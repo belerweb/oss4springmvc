@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc;
+package com.belerweb.oss4springmvc;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,12 +13,12 @@ import com.aliyun.openservices.oss.OSSErrorCode;
 import com.aliyun.openservices.oss.OSSException;
 import com.aliyun.openservices.oss.model.ObjectMetadata;
 import com.aliyun.openservices.oss.model.PutObjectResult;
-import com.beterweb.oss4springmvc.bean.OssFile;
-import com.beterweb.oss4springmvc.bean.OssUploadResult;
-import com.beterweb.oss4springmvc.builder.DatePathBuilder;
-import com.beterweb.oss4springmvc.builder.FileNameBuilder;
-import com.beterweb.oss4springmvc.builder.PathBuilder;
-import com.beterweb.oss4springmvc.builder.UuidFileNameBuilder;
+import com.belerweb.oss4springmvc.bean.OssFile;
+import com.belerweb.oss4springmvc.bean.OssUploadResult;
+import com.belerweb.oss4springmvc.builder.DatePathBuilder;
+import com.belerweb.oss4springmvc.builder.FileNameBuilder;
+import com.belerweb.oss4springmvc.builder.PathBuilder;
+import com.belerweb.oss4springmvc.builder.UuidFileNameBuilder;
 
 /**
  * @author Jun

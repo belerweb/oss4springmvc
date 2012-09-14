@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc;
+package com.belerweb.oss4springmvc;
 
 import javax.servlet.ServletException;
 

@@ -8,7 +8,7 @@
    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
    http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
 
-	<context:component-scan base-package="com.beterweb.oss4springmvc" />
+	<context:component-scan base-package="com.belerweb.oss4springmvc" />
 
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="location">
@@ -16,7 +16,7 @@
 		</property>
 	</bean>
 
-	<bean class="com.beterweb.oss4springmvc.OssService">
+	<bean class="com.belerweb.oss4springmvc.OssService">
 		<property name="endpoint" value="${oss4springmvc.endpoint}" />
 		<property name="accessId" value="${oss4springmvc.accessId}" />
 		<property name="accessKey" value="${oss4springmvc.accessKey}" />

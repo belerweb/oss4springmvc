@@ -1,9 +1,9 @@
-package com.beterweb.oss4springmvc.builder;
+package com.belerweb.oss4springmvc.builder;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.beterweb.oss4springmvc.Constant;
+import com.belerweb.oss4springmvc.Constant;
 
 /**
  * @author Jun
@@ -17,7 +17,7 @@ public class DatePathBuilder implements PathBuilder {
 	private SimpleDateFormat dateFormat = new SimpleDateFormat(DEFAULT_PATTERN);
 
 	/* (non-Javadoc)
-	 * @see com.beterweb.oss4springmvc.PathBuilder#buildPath()
+	 * @see com.belerweb.oss4springmvc.PathBuilder#buildPath()
 	 */
 	@Override
 	public String build() {

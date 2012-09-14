@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc.builder;
+package com.belerweb.oss4springmvc.builder;
 
 /**
  * @author Jun
@@ -8,7 +8,7 @@ package com.beterweb.oss4springmvc.builder;
 public class OriginalFileNameBuilder implements FileNameBuilder {
 
 	/* (non-Javadoc)
-	 * @see com.beterweb.oss4springmvc.builder.FileNameBuilder#build(java.lang.String)
+	 * @see com.belerweb.oss4springmvc.builder.FileNameBuilder#build(java.lang.String)
 	 */
 	@Override
 	public String build(String fileName) {
