@@ -45,7 +45,7 @@ public class Constant {
 	/**
 	 * 斜线
 	 */
-	public static final String SLASH = ".";
+	public static final String SLASH = "/";
 
 	/**
 	 * 空字符串

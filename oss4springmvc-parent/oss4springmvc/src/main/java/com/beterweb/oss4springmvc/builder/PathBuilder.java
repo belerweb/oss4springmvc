@@ -1,4 +1,4 @@
-package com.beterweb.oss4springmvc;
+package com.beterweb.oss4springmvc.builder;
 
 /**
  * @author Jun
@@ -7,6 +7,6 @@ package com.beterweb.oss4springmvc;
  */
 public interface PathBuilder {
 
-	String buildPath(String fileName);
+	String build();
 
 }

@@ -1,7 +1,9 @@
-package com.beterweb.oss4springmvc;
+package com.beterweb.oss4springmvc.builder;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import com.beterweb.oss4springmvc.Constant;
 
 /**
  * @author Jun
@@ -18,8 +20,8 @@ public class DatePathBuilder implements PathBuilder {
 	 * @see com.beterweb.oss4springmvc.PathBuilder#buildPath()
 	 */
 	@Override
-	public String buildPath(String fileName) {
-		return dateFormat.format(new Date()) + Constant.SLASH + fileName;
+	public String build() {
+		return dateFormat.format(new Date()) + Constant.SLASH;
 	}
 
 	public void setPattern(String pattern) {
