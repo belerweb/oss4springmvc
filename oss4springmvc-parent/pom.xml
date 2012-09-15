@@ -2,10 +2,43 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+
 	<groupId>com.belerweb</groupId>
 	<artifactId>oss4springmvc-parent</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<name>Oss for SpringMVC parent</name>
+	<description>Parent pom project for oss for SpringMVC projects</description>
+	<url>https://github.com/belerweb/oss4springmvc</url>
+
+	<licenses>
+		<license>
+			<name>BSD</name>
+			<url>http://opensource.org/licenses/bsd-license.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git:git@github.com:belerweb/oss4springmvc.git</connection>
+		<url>git@github.com:belerweb/oss4springmvc.git</url>
+	</scm>
+	<issueManagement>
+		<system>Github Issue</system>
+		<url>https://github.com/belerweb/oss4springmvc/issues</url>
+	</issueManagement>
+	<developers>
+		<developer>
+			<id>belerweb</id>
+			<name>Tangjun He</name>
+			<email>belerweb@gmail.com</email>
+			<url>https://github.com/belerweb</url>
+		</developer>
+	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,6 +130,19 @@
 					<configuration>
 						<lifecycleMappingMetadata>
 							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-enforcer-plugin</artifactId>
+										<versionRange>[1.0,)</versionRange>
+										<goals>
+											<goal>enforce</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<execute />
+									</action>
+								</pluginExecution>
 								<pluginExecution>
 									<pluginExecutionFilter>
 										<groupId>com.googlecode.maven-java-formatter-plugin</groupId>
