@@ -20,7 +20,7 @@ oss4springmvc已发布到Maven中央资源库，并已包含阿里云Java SDK（
 	<dependency>
 		<groupId>com.belerweb</groupId>
 		<artifactId>oss4springmvc</artifactId>
-		<version>1.0.1</version>
+		<version>1.0.0</version>
 	</dependency>
 	
 ## 步骤一：非Maven用户
